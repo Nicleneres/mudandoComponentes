@@ -6,7 +6,7 @@ import estilos from './estilos';
 export default function Titulo() {
     return (
       <View style={ estilos.barraTituloContainer }>
-      <Text style={ estilos.barraTituloTitulo }>Atores famosos</Text>
+      <Text style={ estilos.barraTituloTitulo }>Automóveis</Text>
   </View>
     )
 }

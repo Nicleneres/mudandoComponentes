@@ -2,20 +2,23 @@ import { StyleSheet } from 'react-native';
 
 const estilos = StyleSheet.create({
   container: {
-    backgroundColor: '#fff',
+    backgroundColor: '#000',
     paddingVertical: 10,
     paddingHorizontal: 20,
   },
   titulo: {
     fontSize: 22,
     fontWeight: "bold",
+    color: '#fff'
   },
   subtitulo: {
     fontWeight: 'bold',
     marginTop: 10,
+    color: '#fff'
   },
   paragrafo: {
     marginTop: 6,
+    color: '#fff'
   },
   imagem: {
     width: 250,

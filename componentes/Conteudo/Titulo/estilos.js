@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 const estilos = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#0c4491',
+        backgroundColor: '#000',
       },
       barraTituloContainer: {
         paddingTop: 35,
@@ -11,10 +11,10 @@ const estilos = StyleSheet.create({
         height: 90
       },
       barraTituloTitulo: {
-        fontSize: 18,
+        fontSize: 32,
         textTransform: 'uppercase',
         fontWeight: "bold",
-        color: '#ff0'
+        color: '#fff'
     },
 })
 

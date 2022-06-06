@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, Image } from 'react-native';
 
-import Foto from '../../../assets/Foto.png'
+import Foto from '../../../assets/bmw.jpeg'
 import estilos from '../Card/estilos'
 
 export default function Card() {
@@ -9,8 +9,8 @@ export default function Card() {
         <View style={ estilos.cardContainer }>
         <View style={ estilos.cardBox }>
           <Image source={ Foto } style={ estilos.cardFotoCapa } />
-          <Text style={ estilos.cardNome }>Samuel Jackson</Text>
-          <Text style={ estilos.cardParagrafo }>Ator e produtor norte-americano</Text>
+          <Text style={ estilos.cardNome }>BMW Série 3</Text>
+          <Text style={ estilos.cardParagrafo }>Esportivo, confiável e bem-sucedido: há mais de 40 anos, o BMW Série 3 representa um prazer de direção dinâmica como nenhum outro veículo.</Text>
         </View>
         </View>
     )

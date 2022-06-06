@@ -3,15 +3,15 @@ import { StyleSheet } from 'react-native';
 const estilos = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#0c4491',
+    backgroundColor: '#000',
   },
     cardContainer: {
         alignItems: "center",
-        backgroundColor: '#0a1c35',
+        backgroundColor: '#000',
         paddingVertical: 20,
       },
       cardBox: {
-        backgroundColor: '#fff',
+        backgroundColor: '#000',
         justifyContent: "center",
         alignItems: "center",
         borderRadius: 10,
@@ -27,9 +27,11 @@ const estilos = StyleSheet.create({
       cardNome: {
         marginTop: 10,
         fontSize: 22,
+        color: '#fff'
       },
       cardParagrafo: {
         margin: 10,
+        color: '#fff'
       }
 })
 export default estilos;
