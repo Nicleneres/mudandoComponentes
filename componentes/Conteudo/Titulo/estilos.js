@@ -14,7 +14,8 @@ const estilos = StyleSheet.create({
         fontSize: 32,
         textTransform: 'uppercase',
         fontWeight: "bold",
-        color: '#fff'
+        color: '#fff',
+        textAlign: 'center'
     },
 })
 
