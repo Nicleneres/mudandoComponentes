@@ -2,28 +2,36 @@ import { StyleSheet } from 'react-native';
 
 const estilos = StyleSheet.create({
   container: {
-    backgroundColor: '#000',
+    backgroundColor: '#ff0000',
     paddingVertical: 10,
     paddingHorizontal: 20,
   },
   titulo: {
-    fontSize: 22,
+    fontSize: 32,
+    textTransform: 'uppercase',
     fontWeight: "bold",
-    color: '#fff'
-  },
+    color: '#fff',
+    textAlign: 'center'
+    },
   subtitulo: {
     fontWeight: 'bold',
-    marginTop: 10,
-    color: '#fff'
+    marginTop: 40,
+    color: '#fff',
+    textTransform: 'uppercase'
   },
   paragrafo: {
     marginTop: 6,
     color: '#fff'
   },
   imagem: {
-    width: 250,
-    height: 100,
-    marginTop: 10,
+    alignSelf: 'center',
+    width: 300,
+    height: 300,
+    marginTop: 20,
+    borderTopLeftRadius: 150,
+    borderTopRightRadius: 150,
+    borderBottomEndRadius: 150,
+    borderBottomStartRadius: 150
   }
 });
 

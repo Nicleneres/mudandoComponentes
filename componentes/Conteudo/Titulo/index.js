@@ -5,8 +5,11 @@ import estilos from './estilos';
 
 export default function Titulo() {
     return (
-      <View style={ estilos.barraTituloContainer }>
-      <Text style={ estilos.barraTituloTitulo }>Automóveis</Text>
+      <View style={estilos.container}>
+        <View style={ estilos.barraTituloContainer }>
+      <Text style={ estilos.barraTituloTitulo }>BMW</Text>
   </View>
+  </View>
+      
     )
 }
